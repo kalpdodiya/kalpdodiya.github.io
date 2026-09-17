@@ -140,6 +140,8 @@
       transition: background 0.2s, transform 0.2s;
     }
     .hero-cta-ghost:hover { background: var(--soft-peach); transform: translateY(-2px); }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+    .hero-actions .hero-cta-ghost { margin-left: 0; }
 
     /* Section headings */
     .section-tag {
@@ -329,8 +331,9 @@
     <p class="hero-label">Open to Opportunities</p>
     <h1 class="hero-name">Kalp<br><em>Dodiya</em></h1>
     <p class="hero-sub">Full stack developer in the making — building real projects with Java, Python, and modern web technologies.</p>
-    <div>
+    <div class="hero-actions">
       <a href="#projects" class="hero-cta">View my work</a>
+      <a href="https://github.com/kalpdodiya/kalpdodiya/raw/refs/heads/main/Kalp%20Dodiya_CV.pdf" target="_blank" rel="noopener noreferrer" class="hero-cta-ghost">View CV</a>
       <a href="#contact" class="hero-cta-ghost">Get in touch</a>
     </div>
   </section>
